@@ -1,0 +1,22 @@
+{
+    "name": "wuzs/test",
+    "description": "这是一个wuzs的测试包",
+    "type": "project",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sun.Woo",
+            "email": "842177252@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wuzs\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
